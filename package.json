@@ -1,0 +1,19 @@
+{
+  "name": "my-mcp-server",
+  "version": "1.0.0",
+  "description": "Un serveur MCP personnalisé pour l'exécution de commandes système",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
